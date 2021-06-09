@@ -31,4 +31,3 @@ public class DateExtractor {
     }
 
 }
-© 2021 GitHub, Inc.
