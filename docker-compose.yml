@@ -6,7 +6,7 @@ services:
     build:
       context: server
       dockerfile: Dockerfile
-    container_name: date-annotator
+    container_name: date-annotator-v2
     networks:
       - nlpsandbox-internal
 
