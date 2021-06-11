@@ -24,6 +24,7 @@ public class DateExtractor {
                     .start(temporal.getBegin())
                     .length(temporal.getEnd() - temporal.getBegin())
                     .text(temporal.getMention())
+                    .dateFormat("MM-DD-YYYY")
                     .confidence(95.5f));
         }
 
